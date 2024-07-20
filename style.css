@@ -15,3 +15,42 @@
   --fw-normal: 400;
   --fw-semibold: 600;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+p,
+h1,
+h2 {
+  overflow-wrap: break-word;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button {
+  background: none;
+  border: none;
+  outline: transparent;
+  font: inherit;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
