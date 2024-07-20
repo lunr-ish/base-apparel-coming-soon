@@ -39,7 +39,8 @@ h2 {
   overflow-wrap: break-word;
 }
 
-img {
+img,
+picture {
   display: block;
   max-width: 100%;
 }
