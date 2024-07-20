@@ -114,3 +114,16 @@ header {
     width: 100%;
   }
 }
+
+/* HERO IMAGE */
+
+@media (min-width: 75rem) {
+  .hero-img-wrapper {
+    grid-row: span 2;
+    justify-self: end;
+  }
+
+  .hero-img-wrapper img {
+    height: 100%;
+  }
+}
