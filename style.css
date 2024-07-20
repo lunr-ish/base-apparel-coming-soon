@@ -69,3 +69,27 @@ button {
   white-space: nowrap;
   width: 1px;
 }
+
+/* BODY */
+
+body {
+  font-family: var(--ff-josefin-sans);
+  font-weight: var(--fw-normal);
+  background: var(--grad-bg);
+}
+
+main {
+  max-width: 23.44rem;
+  min-height: 100vh;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  background: url("./images/bg-pattern-desktop.svg") no-repeat;
+}
+
+@media (min-width: 75rem) {
+  main {
+    max-width: 90rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
