@@ -93,3 +93,24 @@ main {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* HEADER */
+
+header {
+  padding: 2rem;
+}
+
+.logo-wrapper {
+  width: 6.25rem;
+}
+
+@media (min-width: 75rem) {
+  header {
+    align-self: flex-start;
+    padding: 4rem 0 0 10.3rem;
+  }
+
+  .logo-wrapper {
+    width: 100%;
+  }
+}
