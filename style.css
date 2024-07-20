@@ -87,10 +87,11 @@ main {
   background: url("./images/bg-pattern-desktop.svg") no-repeat;
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 70rem) {
   main {
     max-width: 90rem;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 }
 
@@ -104,10 +105,10 @@ header {
   width: 6.25rem;
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 70rem) {
   header {
     align-self: flex-start;
-    padding: 4rem 0 0 10.3rem;
+    padding: 4rem 0 0 5.3rem;
   }
 
   .logo-wrapper {
@@ -115,9 +116,15 @@ header {
   }
 }
 
+@media (min-width: 82rem) {
+  header {
+    padding-left: 10.3rem;
+  }
+}
+
 /* HERO IMAGE */
 
-@media (min-width: 75rem) {
+@media (min-width: 70rem) {
   .hero-img-wrapper {
     grid-row: span 2;
     justify-self: end;
@@ -125,6 +132,7 @@ header {
 
   .hero-img-wrapper img {
     height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -156,12 +164,12 @@ header {
   margin-top: 1em;
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 70rem) {
   .content {
     max-width: 27.8rem;
     text-align: left;
     margin: 0;
-    margin-left: 10.3rem;
+    margin-left: 5.3rem;
   }
 
   .title {
@@ -174,6 +182,12 @@ header {
     font-size: 1rem;
     line-height: 1.75;
     margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 82rem) {
+  .content {
+    margin-left: 10.3rem;
   }
 }
 
@@ -238,7 +252,7 @@ header {
   transform: scale(1.1);
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 70rem) {
   .subscribe-form {
     margin-top: 2.5rem;
   }
