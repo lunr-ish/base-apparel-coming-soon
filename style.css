@@ -1,0 +1,17 @@
+:root {
+  /* COLOR */
+  --clr-primary: 0 36% 70%;
+  --clr-secondary: 0 6% 24%;
+  --clr-error: 0 93% 68%;
+  /* GRADIENT */
+  --grad-bg: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  --grad-btn: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+
+  /* FONT FAMILY */
+  --ff-josefin-sans: "Josefin Sans", sans-serif;
+
+  /* FONT WEIGHT */
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-semibold: 600;
+}
